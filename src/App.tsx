@@ -26,7 +26,7 @@ export default function App() {
       try { return JSON.parse(saved); } catch (e) { console.error(e); }
     }
     return {
-      name: 'Margaret',
+      name: 'Mr. Chetry',
       avatarColor: 'bg-indigo-600',
       textSize: 'large', // default large for elderly
       voiceEnabled: true,
@@ -242,7 +242,7 @@ export default function App() {
                   <input
                     type="text"
                     value={profile.name}
-                    onChange={(e) => setProfile({ ...profile, name: e.target.value || 'Margaret' })}
+                    onChange={(e) => setProfile({ ...profile, name: e.target.value || 'friend' })}
                     placeholder="Enter your name"
                     className="w-full bg-white border border-brand-border rounded-xl pl-11 pr-4 py-3 text-lg font-bold text-[#1A1A1A] focus:outline-none focus:border-brand-sage"
                   />
@@ -305,7 +305,7 @@ export default function App() {
 
             {/* Care tip */}
             <p className="mt-4 text-brand-secondary bg-brand-soft rounded-xl p-4 border border-[#E1EDE7] text-sm font-medium">
-              💡 <span className="font-bold text-brand-sage">Wellness Quote:</span> "Taking care of your body is an act of loving yourself. Take it one gentle step at a time today."
+              💡 <span className="font-bold text-brand-sage">Wellness Quote:</span> "Take care of your body, it’s the only place you have to live. Take one gentle step at a time today."
             </p>
           </div>
 
