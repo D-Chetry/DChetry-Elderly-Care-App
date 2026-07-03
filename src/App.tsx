@@ -298,7 +298,7 @@ export default function App() {
               <div>
                 <p className="text-brand-secondary text-sm font-semibold uppercase tracking-wider">{greetingConfig.message}</p>
                 <h2 className="text-3xl font-bold text-brand-dark tracking-tight">
-                  Arthur {profile.name || 'Friend'}
+                  {profile.name || 'Friend'}
                 </h2>
               </div>
             </div>
