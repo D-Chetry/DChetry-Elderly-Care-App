@@ -1,0 +1,6 @@
+{
+  "name": "Elderly Wellness Support",
+  "description": "A supportive companion and wellness schedule manager for the elderly, featuring large high-contrast text, dynamic timers, vocal event reminders, and an AI chat assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
